@@ -1,7 +1,7 @@
-Source: https://codeforces.com/problemset/problem/1114/D
+# Source
+https://codeforces.com/problemset/problem/1114/D
 
-# D. Flood Fill
-
+# Problem Statement
 You are given a line of n colored squares in a row, numbered from 1 to n from left to right. The i-th square initially has the color ci.
 
 Let's say, that two squares i and j belong to the same connected component if ci=cj, and ci=ck for all k satisfying i<k<j. In other words, all squares on the segment from i to j should have the same color.
