@@ -9,9 +9,9 @@ public class floodfill {
 		int n = sc.nextInt();
 		nums = new ArrayList<Integer>();
 		int prev = -1;
-		for (int i=0; i<n; i++){
+		for (int i = 0; i < n; i++){
 			int x = sc.nextInt();
-			if (x!=prev) nums.add(x);
+			if (x != prev) nums.add(x);
 			prev = x;
 		}
 		sc.close();
@@ -20,28 +20,32 @@ public class floodfill {
 		turns = new int[n][n];
 		val = new int[n][n];
 		
-		System.out.println(solve(0, n-1)[0] - 1);
+		System.out.println(solve(0, n - 1)[0] - 1);
 	}
 	public static int[] solve(int a, int b){
-		if (turns[a][b]!=0) return new int[] {turns[a][b], val[a][b]};
-		if (a==b) {
+		if (turns[a][b] != 0) {
+      return new int[] {turns[a][b], val[a][b]};
+    }
+		if (a == b) {
 			turns[a][b] = 1;
 			val[a][b] = nums.get(a);
 			return new int[] {1, nums.get(a)};
-		}
-		else {
+    } else {
 			int tmin = Integer.MAX_VALUE;
 			int v = 0;
-			int[] s = solve(a, b-1);
-			if (s[1]!=nums.get(b)) s[0]++;
-			if (s[0]<tmin){
+			int[] s = solve(a, b - 1);
+			if (s[1] != nums.get(b)) {
+        s[0]++;
+      }
+
+			if (s[0] < tmin) {
 				tmin = s[0];
 				v = s[1];
 			} 
 			
-			s = solve(a+1, b);
-			if (s[1]!=nums.get(a)) s[0]++;
-			if (s[0]<tmin){
+			s = solve(a + 1, b);
+			if (s[1] != nums.get(a)) s[0]++;
+			if (s[0] < tmin){
 				tmin = s[0];
 				v = s[1];
 			}
