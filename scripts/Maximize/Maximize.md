@@ -1,5 +1,5 @@
-# Source
-https://codeforces.com/problemset/problem/939/E
+# Codeforces #939E: Maximize
+Source: https://codeforces.com/problemset/problem/939/E
 
 # Problem Statement
 You are given a multiset S consisting of positive integers (initially empty). There are two kind of queries:

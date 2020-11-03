@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class maximize {
+public class Maximize {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int q = sc.nextInt();
