@@ -1,5 +1,5 @@
-# Source
-https://codeforces.com/problemset/problem/1110/D
+# Codeforces 1110D: Jongmah
+Source: https://codeforces.com/problemset/problem/1110/D
 
 # Problem Statement
 You are playing a game of Jongmah. You don't need to know the rules to solve this problem. You have n tiles in your hand. Each tile has an integer between 1 and m written on it.
