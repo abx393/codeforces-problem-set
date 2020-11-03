@@ -1,5 +1,5 @@
-# Source
-https://codeforces.com/problemset/problem/296/C
+# Codeforces 296C: Greg and Array
+Source: https://codeforces.com/problemset/problem/296/C
 
 # Problem Statement
 Greg has an array a = a1, a2, ..., an and m operations. Each operation looks as: li, ri, di, (1 ≤ li ≤ ri ≤ n). To apply operation i to the array means to increase all array elements with numbers li, li + 1, ..., ri by value di.
