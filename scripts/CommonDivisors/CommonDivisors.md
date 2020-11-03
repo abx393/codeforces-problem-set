@@ -1,5 +1,5 @@
-# Source
-https://codeforces.com/problemset/problem/182/D
+# Codeforces 182D: Common Divisors
+Source: https://codeforces.com/problemset/problem/182/D
 
 # Problem Statement
 Vasya has recently learned at school what a number's divisor is and decided to determine a string's divisor. Here is what he came up with.
