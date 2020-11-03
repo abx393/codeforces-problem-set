@@ -1,5 +1,5 @@
-# Source
-https://codeforces.com/problemset/problem/607/A
+# Codeforces 607A: Chain Reaction
+Source: https://codeforces.com/problemset/problem/607/A
 
 # Problem Statement
 There are n beacons located at distinct positions on a number line. The i-th beacon has position ai and power level bi. When the i-th beacon is activated, it destroys all beacons to its left (direction of decreasing coordinates) within distance bi inclusive. The beacon itself is not destroyed however. Saitama will activate the beacons one at a time from right to left. If a beacon is destroyed, it cannot be activated.
