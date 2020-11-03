@@ -1,5 +1,5 @@
-# Source
-https://codeforces.com/problemset/problem/1114/D
+# Codeforces 1114D: Flood Fill
+Source: https://codeforces.com/problemset/problem/1114/D
 
 # Problem Statement
 You are given a line of n colored squares in a row, numbered from 1 to n from left to right. The i-th square initially has the color ci.
